@@ -7,3 +7,4 @@ to run a snippet just run the HTML
 snippets made for =>
 
 https://roadmap.sh/projects/simple-tabs
+https://roadmap.sh/projects/cookie-consent
