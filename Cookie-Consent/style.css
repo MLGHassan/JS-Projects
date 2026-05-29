@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(251, 255, 0);
+    /* border: 2px solid rgb(255, 255, 255); */
+    justify-self: center;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 20%;
+    height:20%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 15px; right: 15px;
+    padding: 10px;
+}
+
+.pu-content {
+  background-color: #000000; 
+  padding: 20px;
+  /* border: 1px solid #888; */
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+}
