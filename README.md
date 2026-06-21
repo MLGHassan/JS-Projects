@@ -1,10 +1,11 @@
 # JS-Projects
 
-small snippets of code to mess around with JavaScript
+A collection of random JS code i practiced
 
-to run a snippet just run the HTML
 
-snippets made for =>
+##  Projects List
 
-https://roadmap.sh/projects/simple-tabs
-https://roadmap.sh/projects/cookie-consent
+
+* **[Tab Toggle](https://roadmap.sh/projects/simple-tabs)** 
+* **[Cookie Consent Box](https://roadmap.sh/projects/cookie-consent)** 
+* **[Interactive Quiz App](https://roadmap.sh/projects/quiz-app)** 
