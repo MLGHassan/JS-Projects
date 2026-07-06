@@ -1,0 +1,127 @@
+/* * {
+    border: 1px solid;
+} */
+
+body {
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(4, 73, 101);
+    
+}
+
+
+h2 {
+    margin: 0;  
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.weather-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.location-input {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(54, 76, 127);
+    /* width: 20vw; */
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.date-time {
+    height: 100%;
+}
+
+.weather-icn {
+    width: 20vw;
+}
+
+
+#text-box {
+    /* border: 1px solid black;
+    border-radius: 25px; */
+    background: rgb(54, 76, 127);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+#submit-button {
+    /* border: 1px solid black;
+    border-radius: 50%; */
+    background: rgb(54, 76, 127);
+    border: none;
+}
+
+#search-icon {
+    width: 2em;
+    height: 2em;
+}
+
+#info1 {
+    display: flex;
+    padding: 10px;
+    min-width: 25vw;
+    justify-content:space-around;
+    margin: 2% 0px;
+}
+
+#weatherContainer {
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgb(54, 76, 127);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.weather-con2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-con1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#dayInfo {
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgb(54, 76, 127);
+    border-radius: 15px;
+    margin-top: 5%;
+    width: 100%;
+    
+    padding: 10px;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.hourCard {
+    display: flex;
+    flex-direction: column;
+    min-width: 15%;
+    height: 20%
+}
+
+.weather-con3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

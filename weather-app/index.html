@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        
+        <div class="weather-display">
+            <div class="location-input">
+                <input id="text-box" type="text" placeholder="Input Location"/>
+                <button id="submit-button">
+                    <img src="search.svg" id="search-icon"/>
+                </button>
+            </div>
+            <div id="info1">
+                <div class="date-time"></div>
+                <div class="location"></div>
+            </div>
+            <div id="weatherContainer">
+                <div class="weather-con1">
+                    <h2 id="wind-con"></h2>
+                    
+                </div>
+                <div class="weather-con2">
+                    <img class="weather-icn" style="display: none;" src="" />
+                </div>
+                <div class="weather-con3">
+                    <h2 id="rain-con"></h2>
+                </div>
+            </div>     
+            <div id="dayInfo">
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
